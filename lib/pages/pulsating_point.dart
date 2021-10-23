@@ -7,6 +7,8 @@ import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:sensors_plus/sensors_plus.dart';
 
 class PulsatingPoint extends HookWidget {
+  const PulsatingPoint({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     final controller = useAnimationController(

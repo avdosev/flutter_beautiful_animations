@@ -12,7 +12,11 @@ class HomePage extends StatelessWidget {
         children: [
           HomeItem(
             title: 'Пульсирующая точка',
-            buildPage: (_) => PulsatingPoint(),
+            buildPage: (_) => const PulsatingPoint(),
+          ),
+          HomeItem(
+            title: 'Логотип ИТМО',
+            buildPage: (_) => const ItmoLoading(),
           ),
         ],
       ),

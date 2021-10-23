@@ -12,6 +12,7 @@ class MicroScaffold extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: body,
+      backgroundColor: Colors.white,
       floatingActionButton: IconButton(
         onPressed: () => Navigator.of(context).pop(),
         icon: const Icon(Icons.arrow_back),
