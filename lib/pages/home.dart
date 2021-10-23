@@ -11,8 +11,8 @@ class HomePage extends StatelessWidget {
       body: ListView(
         children: [
           HomeItem(
-            title: 'Акселерометер 1',
-            buildPage: (_) => AccelerometerFirst(),
+            title: 'Пульсирующая точка',
+            buildPage: (_) => PulsatingPoint(),
           ),
         ],
       ),
